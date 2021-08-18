@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Principal {
 	/** @param args */
 	public static void main(String[] args) {
-		System.out.println("Olá amigo!\nQual é o seu nome?"); // Uso do println
+		System.out.println("Olá amigo!\n\nQual é o seu nome?"); // Uso do println
 		// Ler uma string do console usando a biblioteca Scanner.
 		Scanner oi = new Scanner(System.in);
 		String nome = oi.nextLine();
