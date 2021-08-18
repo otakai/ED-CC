@@ -16,5 +16,6 @@ public class Principal {
 		Scanner oi = new Scanner(System.in);
 		String nome = oi.nextLine();
 		System.out.printf("Olá %s!\n", nome);
+		oi.close();
 	}
 }
