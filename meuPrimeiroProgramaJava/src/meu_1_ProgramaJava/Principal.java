@@ -11,9 +11,9 @@ public class Principal {
 	/** @param args */
 	public static void main(String[] args) {
 		System.out.println("Olá amigo!\n\nQual é o seu nome?"); // Uso do println
-		System.out.println("Aguardando..."); // Uso do println
+		System.out.println("Aguardando..."); // Uso do println		
 		// Ler uma string do console usando a biblioteca Scanner.
-		// Teste Novo teste e vamos nois
+		// Teste Novo teste e vamos nois		
 		Scanner oi = new Scanner(System.in);
 		String nome = oi.nextLine();
 		System.out.printf("Olá %s!\n", nome);
